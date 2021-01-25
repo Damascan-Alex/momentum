@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class='weather'>
+    <img id='weather_icon' src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+    <div>
+      <div id="city" contenteditable="true">-</div>
+      <div id="temperature">-</div>
+    </div>
+    <div id="weather_info">
+      <div id='weather_description'>-</div>
+      <img id='w_icon' src="./assets/icons/humidity_icon.svg" alt=""><span id="humidity">-</span>
+      <img id='w_icon' src="./assets/icons/wind_icon.svg" alt=""><span id="wind">-</span>
+    </div>
+  </div>
+  <date id='date'></date>
+  <time id='time'></time>
+  <h1>
+    <span id="greeting"></span> <span id="name" contenteditable="true"></span>
+  </h1>
+  <h2>What is your focus today ?</h2>
+  <h2 id='focus' contenteditable="true"></h2>
+  <button class="btn">&#9661</button>
+  <h3 id='quote'></h3>
+</body>
+<script src="./script.js"></script>
+
+</html>
