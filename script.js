@@ -234,7 +234,6 @@ async function getWeather() {
 		humidity.innerText = `${data.main.humidity}%`
 		wind.innerText = `${data.wind.speed} m/s`
 		weather_icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
-		console.log(data.weather[0])
 	} catch (e) {
 		alert(`Can not find the city: ${cityLink}`)
 	}
