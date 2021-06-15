@@ -71,7 +71,7 @@ function setBgGreet() {
 const base = './assets/images/'
 const images = randomImagesLinks()
 
-console.log(images)
+
 // !!!!!!!!!!!
 let i = new Date().getHours()
 
